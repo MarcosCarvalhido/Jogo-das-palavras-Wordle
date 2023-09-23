@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<header>
+  <h1>Jogo das palavras - Wordle</h1>
+  <p> Adivinhe a palavra de 5 letras!</p>
+</header>
+  <table>
+    <tr class="linha">
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+    </tr>
+    <tr class="linha">
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+    </tr>
+    <tr class="linha">
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+    </tr>
+    <tr class="linha">
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+    </tr>
+    <tr class="linha">
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+    </tr>
+    <tr class="linha">
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+      <td class="celula"></td>
+    </tr>
+  </table>
+  <div class="hidden resultado">
+    <h1></h1>
+    <section>
+      <button class="botão" onclick="jogarNovamente()">Tentar Novamente</button>
+    </section>
+  </div>
+  <div class="entrada">
+    <input type="text" maxlength="5" class="input">
+    <button onclick="Enter()">Enter</button>
+
+    
+  </div>
+   <script src="script.js"></script>
+  <footer>
+    <p> Por <a href="https://github.com/MarcosCarvalhido">Marcos Carvalhido</a></p>
+  </footer>
+</body>
+
+</html>
